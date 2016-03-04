@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class RecursiveFactorial {
 	
-	public int factorial(int n){
+	public long factorial(long n){
 		if(n == 0)
 			return 1;
 		else
@@ -15,7 +15,7 @@ public class RecursiveFactorial {
 		RecursiveFactorial recursiveObject = new RecursiveFactorial();
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter the number");
-		int number = sc.nextInt();
+		long number = sc.nextLong();
 		recursiveObject.factorial(number);
 	}
 }
